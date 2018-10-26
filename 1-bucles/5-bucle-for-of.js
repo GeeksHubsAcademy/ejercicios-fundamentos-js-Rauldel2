@@ -33,3 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
+
+for (obj of gente){
+    if (obj.nombre.startsWith("J")){
+        console.log(obj);
+    }
+}

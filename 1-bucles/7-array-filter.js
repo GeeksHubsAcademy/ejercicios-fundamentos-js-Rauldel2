@@ -35,3 +35,8 @@ let gente = [{
     },
 ]
 
+gente = gente.filter(function (obj) {
+    return obj.nombre.startsWith("J") && obj.edad < 40;
+})
+
+console.log(gente);

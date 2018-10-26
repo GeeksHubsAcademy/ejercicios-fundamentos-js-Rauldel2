@@ -33,3 +33,8 @@ let gente = [{
     },
 ]
 
+gente = gente.filter(function (obj) {
+    return obj.nombre.length === 4;
+})
+
+console.log(gente);

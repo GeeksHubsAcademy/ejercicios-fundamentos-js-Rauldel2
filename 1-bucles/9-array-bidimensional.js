@@ -12,3 +12,13 @@ let matriz = [
     [],
     []
 ]
+
+var num1 = 0;
+
+for (var i = 0; i <= 2; i++){
+    for (var j = 0; j <=2; j++){
+        matriz[i][j] = num1 + j;
+    }
+    num1 += 10;
+}
+console.log(matriz);

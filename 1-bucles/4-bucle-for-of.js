@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+var filtrado = [];
+for(obj of gente){
+    if(obj.edad > 25){
+        filtrado.push(obj);
+    }
+}
+
+for (var i = 0; i < filtrado.length; i++){
+    console.log(filtrado[i]);
+}
