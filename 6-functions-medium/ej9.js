@@ -14,7 +14,9 @@
 let extraerAcronimo = (...input) => {
     let acronimo = '';
     // Aquí tu código.  Desde aquí:
-   
+    for (cadena of input){
+        acronimo += cadena.charAt(0);
+    }
     // Hasta aquí.
     return acronimo;
 }
