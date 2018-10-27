@@ -9,7 +9,13 @@
 //  throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
-
+let muestraPorConsolaEurosEnPesetas = (numero) => {
+    if (typeof numero != "number"){
+        throw new Error('convierteEurosEnPesetas debe recibir un number');
+    } else{
+        console.log(168 * numero);
+    }
+}
 
 // Hasta aquí
 
